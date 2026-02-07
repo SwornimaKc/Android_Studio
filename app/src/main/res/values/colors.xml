@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================= BASIC ================= -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- ================= GRAYSCALE ================= -->
+    <color name="gray_50">#FFF9F9F9</color>
+    <color name="gray_100">#FFF5F5F5</color>
+    <color name="gray_200">#FFEEEEEE</color>
+    <color name="gray_300">#FFE0E0E0</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_700">#FF616161</color>
+    <color name="gray_800">#FF424242</color>
+    <color name="gray_900">#FF212121</color>
+
+    <!-- ================= PRIMARY (PURPLE) ================= -->
+    <color name="primary_50">#FFF3E5F5</color>
+    <color name="primary_100">#FFE1BEE7</color>
+    <color name="primary_200">#FFCE93D8</color>
+    <color name="primary_300">#FFBA68C8</color>
+    <color name="primary_400">#FFAB47BC</color>
+    <color name="primary_500">#FF9C27B0</color>
+    <color name="primary_600">#FF8E24AA</color>
+    <color name="primary_700">#FF7B1FA2</color>
+    <color name="primary_800">#FF6A1B9A</color>
+    <color name="primary_900">#FF4A148C</color>
+
+    <!-- ================= BLUE ================= -->
+    <color name="blue_50">#FFE3F2FD</color>
+    <color name="blue_100">#FFBBDEFB</color>
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="blue_300">#FF64B5F6</color>
+    <color name="blue_400">#FF42A5F5</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_600">#FF1E88E5</color>
+    <color name="blue_700">#FF1976D2</color>
+    <color name="blue_800">#FF1565C0</color>
+    <color name="blue_900">#FF0D47A1</color>
+
+    <!-- ================= GREEN ================= -->
+    <color name="green_50">#FFE8F5E9</color>
+    <color name="green_100">#FFC8E6C9</color>
+    <color name="green_200">#FFA5D6A7</color>
+    <color name="green_300">#FF81C784</color>
+    <color name="green_400">#FF66BB6A</color>
+    <color name="green_500">#FF4CAF50</color>
+    <color name="green_600">#FF43A047</color>
+    <color name="green_700">#FF388E3C</color>
+    <color name="green_800">#FF2E7D32</color>
+    <color name="green_900">#FF1B5E20</color>
+
+    <!-- ================= RED ================= -->
+    <color name="red_50">#FFFDECEA</color>
+    <color name="red_100">#FFF9D5D3</color>
+    <color name="red_200">#FFF2A7A3</color>
+    <color name="red_300">#FFEB7A73</color>
+    <color name="red_400">#FFE4605B</color>
+    <color name="red_500">#FFF44336</color>
+    <color name="red_600">#FFE53935</color>
+    <color name="red_700">#FFD32F2F</color>
+    <color name="red_800">#FFC62828</color>
+    <color name="red_900">#FFB71C1C</color>
+
+    <!-- ================= ORANGE ================= -->
+    <color name="orange_50">#FFFFF3E0</color>
+    <color name="orange_100">#FFFFE0B2</color>
+    <color name="orange_200">#FFFFCC80</color>
+    <color name="orange_300">#FFFFB74D</color>
+    <color name="orange_400">#FFFFA726</color>
+    <color name="orange_500">#FFFF9800</color>
+    <color name="orange_600">#FFFB8C00</color>
+    <color name="orange_700">#FFF57C00</color>
+    <color name="orange_800">#FFEF6C00</color>
+    <color name="orange_900">#FFE65100</color>
+
+    <!-- ================= YELLOW ================= -->
+    <color name="yellow_50">#FFFFFDE7</color>
+    <color name="yellow_100">#FFFFF9C4</color>
+    <color name="yellow_200">#FFFFF59D</color>
+    <color name="yellow_300">#FFFFF176</color>
+    <color name="yellow_400">#FFFFEE58</color>
+    <color name="yellow_500">#FFFFEB3B</color>
+    <color name="yellow_600">#FFFDD835</color>
+    <color name="yellow_700">#FFFBC02D</color>
+    <color name="yellow_800">#FFF9A825</color>
+    <color name="yellow_900">#FFF57F17</color>
+
+    <!-- ================= TEAL ================= -->
+    <color name="teal_50">#FFE0F2F1</color>
+    <color name="teal_100">#FFB2DFDB</color>
+    <color name="teal_200">#FF80CBC4</color>
+    <color name="teal_300">#FF4DB6AC</color>
+    <color name="teal_400">#FF26A69A</color>
+    <color name="teal_500">#FF009688</color>
+    <color name="teal_600">#FF00897B</color>
+    <color name="teal_700">#FF00796B</color>
+    <color name="teal_800">#FF00695C</color>
+    <color name="teal_900">#FF004D40</color>
+
+    <!-- ================= STATUS ================= -->
+    <color name="success">#FF4CAF50</color>
+    <color name="error">#FFF44336</color>
+    <color name="warning">#FFFFC107</color>
+    <color name="info">#FF2196F3</color>
+
+
+    <!-- ================= CREAM / OFF-WHITE ================= -->
+    <color name="cream_50">#FFFFFDF7</color>
+    <color name="cream_100">#FFFFFAEB</color>
+    <color name="cream_200">#FFFFF4D6</color>
+    <color name="cream_300">#FFFFEEBF</color>
+    <color name="cream_400">#FFFFE8A8</color>
+    <color name="cream_500">#FFFFE082</color>
+    <color name="cream_600">#FFFFD54F</color>
+    <color name="cream_700">#FFFFCA28</color>
+    <color name="cream_800">#FFFFC107</color>
+    <color name="cream_900">#FFFFB300</color>
+
+    <!-- ================= WARM CREAM ================= -->
+    <color name="warm_cream_50">#FFFFF8F0</color>
+    <color name="warm_cream_100">#FFFFF1E0</color>
+    <color name="warm_cream_200">#FFFFE8CC</color>
+    <color name="warm_cream_300">#FFFFDDB3</color>
+    <color name="warm_cream_400">#FFFFD299</color>
+    <color name="warm_cream_500">#FFFFC97F</color>
+
+    <!-- ================= BEIGE / SAND ================= -->
+    <color name="beige_50">#FFFDF8F3</color>
+    <color name="beige_100">#FFF9F1E7</color>
+    <color name="beige_200">#FFF3E6D8</color>
+    <color name="beige_300">#FFEBDAC6</color>
+    <color name="beige_400">#FFE2CDB3</color>
+    <color name="beige_500">#FFD9C1A1</color>
+    <color name="beige_600">#FFCFAF8C</color>
+    <color name="beige_700">#FFC49C76</color>
+    <color name="beige_800">#FFB98960</color>
+    <color name="beige_900">#FFA87448</color>
+
+    <!-- ================= UI USAGE ================= -->
+    <color name="cream_background">#FFFFFDF7</color>
+    <color name="cream_surface">#FFFFFAEB</color>
+    <color name="cream_card">#FFFFF4D6</color>
+    <color name="cream_divider">#FFFFE8A8</color>
+    <color name="cream_text_primary">#FF3E2723</color>
+    <color name="cream_text_secondary">#FF6D4C41</color>
+
+
+</resources>
