@@ -12,22 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
-            android:name=".LearnFragment"
+            android:name=".figmaToApp"
             android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
         </activity>
+
+        <activity
+            android:name=".LearnFragment"
+            android:exported="false">
+</activity>
         <activity
             android:name=".ConstraintActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="false" />
 
-        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
