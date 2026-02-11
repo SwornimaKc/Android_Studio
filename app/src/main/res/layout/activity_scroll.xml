@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ScrollActivity"
+    android:layout_height="match_parent">
+
+    <!-- TOP TOOLBAR -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:title="ScrollView Test"
+            android:titleTextColor="@android:color/white"
+            app:layout_scrollFlags="scroll|enterAlways" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!-- CONTENT AREA -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginBottom="80dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="Button1"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/blue_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button2"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/yellow_400"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button3"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/red_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button4"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/green_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button5"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/gray_700"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button6"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/primary_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button7"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/teal_500"
+                />
+
+
+                 </LinearLayout>
+    </HorizontalScrollView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button1"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/blue_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button2"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/yellow_400"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button3"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/red_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button4"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/green_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button5"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/gray_700"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button6"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/primary_500"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Button7"
+                android:fontFamily="@font/chapman"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:backgroundTint="@color/teal_500"
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <!-- BOTTOM APP BAR -->
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black"
+        app:fabAlignmentMode="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:src="@drawable/home"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:src="@drawable/calendar_month"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:src="@drawable/person"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
